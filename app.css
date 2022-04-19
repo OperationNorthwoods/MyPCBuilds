@@ -40,6 +40,7 @@ h1 {
     display: flex;
     padding: 10px;
     margin-left: 50px;
+    flex-direction: column;
 }
 
 .item-1 .item-2 {}
