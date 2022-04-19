@@ -1,0 +1,39 @@
+html {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 100%;
+    background-color: gray;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+body {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    margin-left: 100px;
+    padding: 20px;
+
+}
+
+h1 {
+    font-size: 100px;
+    font-family: 'Updock', cursive;
+    margin: 20PX 0PX 20PX;
+    background-color: red;
+    border: 1PX SOLID black;
+    height: 125PX;
+}
+
+.item-1 {
+    display: flex;
+}
+
+.item-2 {
+    display: flex;
+}
+
+.item-1 .item-2 {}
