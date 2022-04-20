@@ -32,6 +32,12 @@ h1 {
     justify-content: center;
 }
 
+h2 {
+    padding: 10px 10px;
+    margin: 30px 10px 30px 10px;
+    width: 12%;
+}
+
 p {
     background-color: rgba(100, 148, 237, 0.534);
 }
@@ -63,7 +69,9 @@ section.item-2 {
     wi
 }
 
-.item-1-2-3 {}
+.item-1-2-3 {
+    background-color: white;
+}
 
 .item-3 {
     display: flex;
