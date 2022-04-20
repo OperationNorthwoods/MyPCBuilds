@@ -32,6 +32,10 @@ h1 {
     justify-content: center;
 }
 
+p {
+    background-color: rgba(100, 148, 237, 0.534);
+}
+
 .item-1 {
     display: flex;
 }
@@ -44,23 +48,39 @@ h1 {
     width: 45%;
 }
 
+section.item-2 {
+    margin: 10px 0px 0px 10px;
+}
+
 .item-2-3 {
-display: flex;
-flex-direction: row;
-justify-content: center;
-flex-wrap: wrap;
-arragne-items: center;
-border: solid black 1px;
-background-color: red;
-wi
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    arragne-items: center;
+    border: solid black 1px;
+    background-color: red;
+    wi
 }
 
-.item-1-2-3 {
-
-}
+.item-1-2-3 {}
 
 .item-3 {
-display: flex;
-flex-direction: row
-width: 45%;
+    display: flex;
+    flex-direction: row width: 45%;
+    background-color: red;
 }
+
+.item-4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+
+}
+
+* {
+    border solid red 1px;
+}
+
+@media screen {}
